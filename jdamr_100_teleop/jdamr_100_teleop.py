@@ -15,7 +15,7 @@ LIN_VEL_STEP_SIZE = 10
 ANG_VEL_STEP_SIZE = 10
 
 max_lin_vel = 250
-min_lin_vel = 100
+min_lin_vel = 0
 
 max_ang_vel = 250
 min_ang_vel = -250

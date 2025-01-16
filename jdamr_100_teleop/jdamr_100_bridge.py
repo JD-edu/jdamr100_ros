@@ -3,14 +3,14 @@ import socket
 from rclpy.node import Node
 from std_msgs.msg import Int64
 
-class esp32_bridge_w2s(Node):
+class Jdamr100Bridge(Node):
     def __init__(self):
-        super().__init__('esp32_bridge_w2s')
+        super().__init__('jdamr_100_bridge')
         
         self.subscription_linear = self.create_subscription(Int64, 'linear', self.linear_callback, 10)
         self.subscription_angular = self.create_subscription(Int64, 'angular', self.angular_callback, 10)
         
-        self.host = '172.30.1.17'
+        self.host = '172.30.1.39'
         self.port = 8080
         
         self.min_vel = 0
@@ -58,7 +58,7 @@ def constrain(value, min_value, max_value):
 
 def main(args=None):
     rclpy.init(args=args)
-    cmd_vel_subscriber = esp32_bridge_w2s()
+    cmd_vel_subscriber = Jdamr100Bridge()
 
     try:
         rclpy.spin(cmd_vel_subscriber)

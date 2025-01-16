@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'jdamr_100_teleop = jdamr_100_teleop.jdamr_100_teleop:main',
-        	'jdamr_100_bridge = jdamr_100_bridge.jdamr_100_bridge:main',
+        	'jdamr_100_bridge = jdamr_100_teleop.jdamr_100_bridge:main',
         ],
     },
 )
