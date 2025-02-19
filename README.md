@@ -8,7 +8,9 @@ Most ROS2-compatible robot cars are built using **Raspberry Pi or Jetson Nano**,
 
 In contrast, **JDAMR100** is a **low-cost, easy-to-understand** robot that focuses on **fundamental ROS2 hardware integration**. This makes it **ideal for beginners** who want to learn **ROS2 motor control and communication without unnecessary complexity**.  
 
-🔹 **GitHub Repository**: [jdamr100_ros](https://github.com/JD-edu/jdamr100_ros)  
+🔹 **GitHub Repository for ROS2 Package**: [jdamr100_ros](https://github.com/JD-edu/jdamr100_ros)  
+
+🔹 **GitHub Repository for Arduino/ESP32 codes**: [jdamr100](https://github.com/JD-edu/jdamr100)  
 
 ---
 
@@ -116,4 +118,4 @@ Motor Control Execution (Arduino)
 
 ---
 
-Let me know if you need any further modifications! 🚀😊
+
